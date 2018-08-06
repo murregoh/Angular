@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My Project';
-  author = 'Mateo Urrego Hoyos'
+  author = 'Mateo Urrego Hoyos';
+  count = 0;
+  img = true;
+  imageSource = './../favicon.ico';
+
 }
